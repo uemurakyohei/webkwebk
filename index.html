@@ -17,59 +17,64 @@
              h1{ color : red;
                  background: white;
              }
-             h2{ color: palevioletred;}
+             h2{ color: palevioletred;
+             margin-bottom: auto;
+             }
              a{color: darkorange;
                background: white;
                border: 1px solid #ff4c4c;
-               padding: 16px;
+               padding: 12px;
                text-decoration: none;     
                border-radius: 9px;      
              }
              body{
-                 width: 100%
-             }
+                 width: 100%}
+             <!--article{float: inherit;}-->
          </style>
      <h1>Welcome to Jhonson home page!!</h1>
      <h2>上村享平公式ホームページ‼︎</h2>
     </header>
     
     <nabi>
+        <style>
+            nabi{
+                border-top-left-radius: 15px;
+                border-top-right-radius: 15px;
+                padding: inherit;
+            }
+        </style>
         <li><a href="https://life-is-tech.com/"target="_blank">Life is Tech!</a>
         </li>
         <li><a href="https://www.google.co.jp/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=facebook">Facebook</a></li>
         
-        
-        
-        
-        
-        
+               
     </nabi>
     <section>
-        <article>
+       <div> <article>
   <h2>自己紹介</h2>
   <p>愛知県岡崎市生まれ．2015年名古屋工業大学生命物質工学科に入学　趣味は映画鑑賞や読書、あとはゲームなどなど、、
   <br />今年の春には電車で琵琶湖や金沢に旅行に行きました‼︎そのこともリンクでのせたのでぜひみてください！</p> 
-        </article>
+           </article></div>
         
-        <article>
+        <div><article>
   <h2>最近の事情</h2>
 　<p>4月から焼肉店で働いてます。夜遅くまで働くことが多くしんどい時も多々あります。でも、それだからこそやりがいも感じていて続けています‼︎<br />岡崎に来たときにはぜひきて下さい。</p> 
-         </article>
+            </article></div>
     </section>
     
     <aside>
        
           <style>
-        li{
-            
-            width: 290px;
-            background: #fff;
+        <!--li{ 
+            width: 250px;
             list-style-type: none;
             float: left;
             margin-right: 20px;
             margin-bottom: 20px;  
+            
+            footer{float:left;
         }
-        
+        ->
         
           </style>
        
@@ -77,11 +82,11 @@
         <h3>2015年春の旅行</h3>
        
         <li>
-         <h3>in琵琶湖</h3>
+         <h3>in琵琶湖→<a href="2page_biwako.html">もっと見る！</a></h3>
           <img src="images/biwako1.jpg"alt=""width="290">
         </li>
         <li>
-         <h3>in能登</h3>
+         <h3>in能登→<a href="3page_notohantou.html">もっと見る‼︎</a></h3>
           <img src="images/IMG_1412.jpg"alt=""width="350">
         </li>
         
@@ -89,7 +94,16 @@
     </aside>
     
     <footer>
-        2015年6月18日作成
+      <style>
+        {
+            width: 200px;
+            padding: 20px;
+            margin-left: 10px;
+            float: left;
+        }
+        </style>
+       
+        <div>2015年6月18日作成</div>
     </footer>
     
  
